@@ -53,16 +53,18 @@ class _HomeScreenState extends State<HomeScreen> {
           items: const [
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.call_sharp,
+                Icons.person
               
               ),
-              label: "Calls",
+              label: "Contacts",
             ),
-            BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
+            BottomNavigationBarItem(icon: Icon(Icons.call), label: "Call"),
             BottomNavigationBarItem(
+                icon: Icon(Icons.chat), label: "Chats"),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.change_history), label: "Channels"),
+                 BottomNavigationBarItem(
                 icon: Icon(Icons.settings), label: "Settings"),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.call_sharp), label: "Calls"),
           ],
           
           
